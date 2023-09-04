@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mis dibujos - Caricaturas</title>
+    <link rel="stylesheet" type="text/css" href="estilosIA.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Categoría Caricatura</h1>
+        <p>Selecciona categoría:</p>
+        <select id="categoria" name="categoria" onchange="location = this.value;">
+            <option value="caricatura.html">Caricatura</option>
+            <option value="anime.html">Anime</option>
+            <option value="paisaje.html">Paisaje</option>
+            <option value="index.html">Todos</option>
+        </select>
+        <div class="imagenes">
+            <img class="imagenes img todos" src="assets/images/caricatura1.png" alt="Caricatura 1">
+            <img class="imagenes img todos" src="assets/images/caricatura2.png" alt="Caricatura 2">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 CZM</p>
+    </footer>
+</body>
+</html>

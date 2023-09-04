@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mis dibujos - Catálogo</title>
+    <link rel="stylesheet" type="text/css" href="estilosIA.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="nueva-seccion">
+            <p>Para más información sobre la actividad teórica, hacé clic en el siguiente enlace:</p>
+            <a href="ACTIVIDAD1-TEORIA.html">ACTIVIDAD 1 - TEORIA</a>
+        </div>
+        <h1>Todas las Imágenes</h1>
+        <p>Selecciona categoría:</p>
+        <select id="categoria" name="categoria" onchange="location = this.value;">
+            <option value="index.html">Todos</option>
+            <option value="anime.html">Anime</option>
+            <option value="paisaje.html">Paisaje</option>
+            <option value="caricatura.html">Caricatura</option>
+        </select>
+        <div class="imagenes">
+            <img class="imagenes img todos" src="assets/images/anime1.png" alt="Anime 1">
+            <img class="imagenes img todos" src="assets/images/anime2.png" alt="Anime 2">
+            <img class="imagenes img todos" src="assets/images/caricatura1.png" alt="Caricatura 1">
+            <img class="imagenes img todos" src="assets/images/caricatura2.png" alt="Caricatura 2">
+            <img class="imagenes img todos" src="assets/images/paisaje1.png" alt="Paisaje 1">
+            <img class="imagenes img todos" src="assets/images/paisaje2.png" alt="Paisaje 2">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 CZM</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mis dibujos - Contacto</title>
+    <link rel="stylesheet" type="text/css" href="estilosIA.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contacto">
+        <h1>Contacto</h1>
+        <p>Utiliza el formulario siguiente para ponerte en contacto con nosotros:</p>
+        <form action="mailto:catazuppa@gmail.com?subject=Contacto desde el sitio web" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer id="contacto">
+        <p>&copy; 2023 CZM</p>
+    </footer>
+</body>
+</html>

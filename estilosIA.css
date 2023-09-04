@@ -1,0 +1,219 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    background-color: #800080; /* Violeta */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #800080; /* Violeta */
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+}
+
+.imagenes {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categoria {
+    display: none;
+}
+
+.categoria.todos,
+.categoria.anime,
+.categoria.paisaje,
+.categoria.caricatura {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para las imágenes */
+.imagenes img {
+    border: 2px solid #800080; /* Violeta */
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.categoria.todos img,
+.categoria.anime img,
+.categoria.paisaje img,
+.categoria.caricatura img {
+    display: block;
+}
+
+.categoria.todos img:not(.todos),
+.categoria.anime img:not(.anime),
+.categoria.paisaje img:not(.paisaje),
+.categoria.caricatura img:not(.caricatura) {
+    display: none;
+}
+
+footer {
+    background-color: #800080; /* Violeta */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para la página de contacto */
+/* Fuente personalizada y estilos para el formulario de contacto */
+#nombre, #mensaje {
+    font-family: Arial, sans-serif;
+    width: 50%; /* Cambiamos el ancho al 50% */
+    padding: 10px;
+    margin: 0 auto; /* Para alinear en el centro horizontalmente */
+    display: block; /* Hacer que los campos ocupen toda la anchura del contenedor */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón de envío del formulario de contacto */
+input[type="submit"] {
+    background-color: #800080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: violet; /* Cambiar color al pasar el cursor sobre el botón */
+}
+
+/* Estilos para el encabezado de la página de contacto */
+#contacto h1 {
+    color: #800080;
+}
+
+/* Estilos para el pie de página de la página de contacto */
+#contacto footer {
+    background-color: #800080;
+}
+
+/* Estilos para la nueva sección */
+.nueva-seccion {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #800080; /* Borde violeta */
+    border-radius: 3px; /* Esquinas redondeadas */
+}
+
+/* Estilos para el enlace en la nueva sección */
+.nueva-seccion a {
+    text-decoration: none;
+    color: #800080; /* Color violeta para el enlace */
+    transition: color 0.3s, text-decoration 0.3s; /* Transiciones suaves */
+}
+
+.nueva-seccion a:hover {
+    color: violet; /* Cambiar el color al pasar el cursor */
+    text-decoration: underline; /* Subrayar al pasar el cursor */
+}
+
+/* Estilos para la ventana Quiénes Somos (ACTIVIDAD1-TEORIA.html) */
+.info-container {
+    width: 30%;
+    margin: 0 auto;
+    text-align: left; /* Alineación del texto a la izquierda dentro del contenedor */
+    border: 2px solid #800080; /* Borde violeta */
+    border-radius: 3px; /* Esquinas redondeadas */
+}
+
+.info-box {
+    padding: 10px; /* Agregamos padding para separar el texto del borde */
+}
+
+.info-line {
+    margin: 0; /* Eliminamos márgenes para que las líneas estén pegadas */
+}
+
+.violet-text {
+    color: #800080; /* Color violeta */
+}
+
+.centered-text {
+    text-align: center; /* Alineación centrada */
+    margin-top: 10px; /* Margen superior para separar el texto del contenedor */
+}
+
+/* Estilos para la ventana ACTIVIDAD1-TEORIA.html */
+.imagen-teoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.imagen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrado vertical */
+    border: 2px solid #800080; /* Borde violeta */
+    padding: 10px;
+    max-width: 80%;
+    text-align: center; /* Alineación centrada para el texto dentro del contenedor */
+}
+
+.imagen-container img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    max-height: 100%; /* Asegura que las imágenes se ajusten al alto del contenedor */
+}
+
+.enlace-repositorio {
+    margin-top: 10px; /* Espacio entre la imagen y el enlace */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para el enlace dentro de .enlace-repositorio */
+.enlace-repositorio a {
+    text-decoration: none;
+    color: #800080; /* Color violeta para el enlace */
+    transition: color 0.3s, text-decoration 0.3s; /* Transiciones suaves */
+}
+
+.enlace-repositorio a:hover {
+    color: violet; /* Cambiar el color al pasar el cursor */
+    text-decoration: underline; /* Subrayar al pasar el cursor */
+}
